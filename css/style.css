@@ -1,0 +1,439 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding-top: 20px;
+    
+    position: absolute;
+    left: 10px;
+}
+
+#lnb {
+    height: 90px;
+    border-bottom: 3px solid #d3b666;
+}
+
+#lnb .cen2 {
+    position: relative;
+}
+
+.cen1 {
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
+}
+.cen2 {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: #262323;
+}
+
+#pcnav {
+    margin-top: 8px;
+}
+
+#pcnav ul{
+    list-style: none;
+}
+
+a {text-decoration: none;}
+
+
+/*헤더공간*/
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #262323;
+    z-index: 5000;
+}
+
+.main {
+    width: 120px;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.main:first-of-type{
+    margin-left: 300px;
+}
+
+.main>a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size:1em;
+    font-weight: 700;
+}
+
+.main:hover{
+    background-color:#3c3939;
+}
+
+.sub {
+    border-left: 1px solid #3c3939;
+    position: relative;
+    font-size: 1em;
+    font-weight: 700;
+    height: 150px;
+    background-color: #514f4f;
+}
+
+.sub a{
+    border-bottom: 1px solid #3c3939;
+    display: inline-block;
+    width: 100%;
+    color:white;
+    height: 50px;
+    line-height: 50px;
+}
+.sub a:hover{
+    background-color: #262323;
+}
+
+#pcnav {
+    position: absolute;
+    width: 950px;
+    z-index: 1000;
+    overflow: hidden;
+    height: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/*섹션공간*/
+
+#centerbox{
+    background-color:#514f4f;
+    height:auto;
+}
+
+#centerbox>h2{
+    color:#d3b666;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+.mainbox{
+    background-color:#514f4f;
+    height:auto;
+    overflow: auto;
+}
+.roombox{
+    overflow: auto;
+    margin: 50px;
+}
+
+.roombox:last-of-type{
+    padding-bottom: 50px;
+}
+
+.roomimg img{
+    width:150px;
+    height:150px;
+    float: left;
+}
+.txtbox{
+    width:500px;
+    padding-left: 50px;
+    float: left;
+    margin-top:20px;
+}
+.txtbox p{
+    font-weight:700;
+    color:white;
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+.rtxtbox{
+    width:500px;
+    padding-right: 50px;
+    float: left;
+    margin-top:20px;
+}
+.rtxtbox p{
+    font-weight:700;
+    color:white;
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+#eventbox{
+    height: auto;
+    background-color: #3c3939;
+    overflow: auto;
+}
+
+#eventbox>h2{
+    color:#d3b666;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+
+.eventsbox{
+    margin-top:50px;
+    width:200px;
+    float: left;
+    margin-bottom: 50px;
+    display: block;
+}
+.eventsbox:first-of-type{
+    margin-left: 100px;
+}
+
+.eventtxt{
+    width:100%;
+    float: left;
+    color:white;
+    height: 150px;
+    line-height:1.5em;
+    background-color:#262323;
+}
+
+.eventtxt h4{
+    font-size: 1em;
+    color:#d3b666;
+}
+
+.eventtxt h4,
+.eventtxt p{
+    text-align: center;
+    padding-left:9px; 
+    padding-right:9px;
+}
+
+.eventimg>img{
+    width:100%;
+    height:150px;
+    display: block;
+}
+
+.roombox:nth-of-type(2)>.roomimg{
+    padding-top: 50px;
+    
+}
+
+/*푸터공간*/
+footer{
+    background-color:#3c3939;
+    height: 350px;
+}
+
+#footerbox{
+    margin-top: 20px;
+    height: 350px;
+}
+
+#footerbox>img{
+    margin-top: 20px;
+}
+
+#footertxt{
+    color:white;
+    height: auto;
+    float: left;
+    font-size: 0.9em;
+}
+
+#iconbox{
+    width:130px;
+    height: 40px;
+    background-color: #262323;
+    float: right;
+    margin-right: 20px;
+    border-radius: 10%;
+}
+
+
+#iconbox>img{
+    margin-top:5px;
+    width:30px;
+    height: 30px;
+}
+
+#iconbox>img:first-of-type{
+    margin-left: 20px;
+}
+
+#centxt{
+    font-size: 0.8em;
+    margin-top: 230px;
+    text-align: center;
+    clear: both;
+    color:white;
+}
+
+    
+    
+
+
+/*intro 시작클래스*/
+
+#intro{
+    color:white;   
+}
+
+#introtxt>p{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#introtxt>p:last-of-type{
+    margin-bottom: 30px;
+}
+
+#intro>img{
+    width:100%;
+    height:100%;
+    padding:30px 50px 20px 50px;
+}
+
+
+/*intro2*/
+
+#intro1img{
+    margin: 30px;
+    position: relative;
+    
+}
+
+#intro1img>img{
+    width:100%;
+    display: block;
+}
+
+#intro1txt{
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    background-color:rgba(38,35,35,0.8);
+    
+}
+
+#intro1txt>p{
+    color:white;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #262323;
+}
+
+
+/*part*/
+
+
+#gpsbox{
+    padding:30px;
+    margin:auto;
+}
+#gpsbox>img{
+    width: 100%;
+}
+
+#gpsbox>p{
+    color:white;
+    line-height: 30px;
+}
+
+/*ad*/
+
+#reserbox{
+    font-size: 0.7em;
+    text-align: center;
+    margin: auto;
+    border-top: 1px solid white;
+    border-collapse: collapse;
+    min-width: 720px;
+    margin-top: 1em;
+    color:white;
+    background-color: #3c3939;
+}
+
+#reserbox th,
+#reserbox td{
+    border: 1px solid white;
+    padding:5px 5px;
+}
+
+#reserbox p{
+    display: inline-block;
+}
+
+#resertxt{
+    background-color: #3c3939;
+    margin: auto;
+    color:white;
+    margin-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: 39px;
+    margin-right: 39px;
+}
+
+#reserbtn{
+    background-color:#3c3939;
+    width:300px;
+    height:70px;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 70px;
+}
+#reserbtn>a{
+    color:white;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#reserbtn:hover{
+    cursor: pointer;
+    background-color: #262323;
+}
+
+#back{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.5;
+    display: none;
+}
+
+/*ad2*/
+#ad2txt{
+    color: white;
+    font-size: 0.9em;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+#ad2txt h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+

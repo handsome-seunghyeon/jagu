@@ -1,0 +1,463 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="author" content="JG(주)"/>
+        <meta name="description" content="우리 펜션은 아주 좋은펜션 아주간지가 나지요."/>
+        <meta name="keywords" content="펜션,자구가숑,여행,놀자,휴가"/>
+        <meta name="viewport" content="initial-scale=1, width=device-width"/>
+        <title>J&amp;G</title>
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous">
+        </script>
+        <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        
+        <script src="https://kit.fontawesome.com/06f9ab8b4b.js" crossorigin="anonymous"></script>
+        <link href="css/style.css" rel="stylesheet"/>
+        <link href="css/slide.css" rel="stylesheet"/>
+        <link href="css/ratio_adj.css" rel="stylesheet"/>
+        <link href="css/moblie.css" rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    </head>
+    <body>
+        <header>
+            <div id="lnb">
+                <h1>
+                    <a href="index.html">
+                        <img src="images/JG.png" alt="JacquesGaschon"/>
+                    </a>
+                </h1>
+                <div class="cen2">
+                    
+                    <button id="ham" type="button">
+                        <img src="images/ham.png" alt="모바일 메뉴 버튼" />
+                    </button>
+                    <nav id="pcnav">
+                        <ul>
+                            <li class="main">
+                                <a href="intro0.html">펜션소개</a>
+                                <ul class="sub">
+                                    <li><a href="intro0.html">펜션소개</a></li>
+                                    <li><a href="intro1.html">브랜드소개</a></li>
+                                    <li><a href="intro2.html">찾아오시는길</a></li>
+                                </ul>
+                            </li>
+                            <li class="main">
+                                <a href="part0.html">주변볼거리</a>
+                                <ul class="sub">
+                                    <li><a href="part0.html">관광지</a></li>
+                                    <li><a href="part1.html">맛집</a></li>
+                                    <li><a href="part2.html">축제</a></li>
+                                </ul>
+                            </li>
+                            <li class="main">
+                                <a href="ad0.html">예약</a>
+                                <ul class="sub">
+                                    <li><a href="ad0.html">온라인예약</a></li>
+                                    <li><a href="ad1.html">예약조회</a></li>
+                                    <li><a href="ad2.html">환불/유의사항</a></li>
+                                </ul>
+                            </li>
+                            <li class="main">
+                                <a href="manage0.html">공지사항</a>
+                                <ul class="sub">
+                                    <li><a href="manage0.html">공지사항</a></li>
+                                    <li><a href="manage1.html">후기</a></li>
+                                    <li><a href="manage2.html">Q&amp;A</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>    
+            </div>
+            <div id="mback"></div>
+            <ul id="mnav">
+                <li class="mmain">
+                    <a href="intro0.html">펜션소개</a>
+                    <ul class="msub">
+                        <li><a href="intro0.html">펜션소개</a></li>
+                        <li><a href="intro1.html">브랜드소개</a></li>
+                        <li><a href="intro2.html">찾아오시는길</a></li>
+                    </ul>
+                </li>
+                <li class="mmain">
+                    <a href="intro0.html">주변볼거리</a>
+                    <ul class="msub">
+                        <li><a href="part0.html">관광지</a></li>
+                        <li><a href="part1.html">맛집</a></li>
+                        <li><a href="part2.html">축제</a></li>
+                    </ul>
+                </li>
+                <li class="mmain">
+                    <a href="ad0.html">예약</a>
+                    <ul class="msub">
+                        <li><a href="ad0.html">온라인예약</a></li>
+                        <li><a href="ad1.html">예약조회</a></li>
+                        <li><a href="ad2.html">환불/유의사항</a></li>
+                    </ul>
+                </li>
+                <li class="mmain">
+                    <a href="manage0.html">공지사항</a>
+                    <ul class="msub">
+                        <li><a href="mamage0.html">공지사항</a></li>
+                        <li><a href="mamage1.html">후기</a></li>
+                        <li><a href="mamage2.html">Q&amp;A</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </header>
+        <section class="cen2">
+            <div class="mainbox">
+                <h2 style="color:#d3b666;
+                           margin-top: 30px;
+                           margin-buttom: 30px;
+                           margin-left: 40px;
+                           ">온라인예약</h2>
+                <table id="reserbox">
+                    <tr>
+                        <th>선택</th>
+                        <th>객실이름</th>
+                        <th>면적</th>
+                        <th>최소인원/최대인원</th>
+                        <th>비수기주중</th>
+                        <th>비수기주말</th>
+                        <th>성수기</th>
+                        <th>시설</th>
+                        <th>보기</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="radiotxt" value="bt1"/>
+                        </td>
+                        <td>Lena(레나)</td>
+                        <td>12평</td>
+                        <td>
+                            <select name="number">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                            <p>/4</p>
+                        </td>
+                        <td>80,000</td>
+                        <td>100,000</td>
+                        <td>150,000</td>
+                        <td>침대룸,거실,주방,화장실</td>
+                        <td>
+                            <button type="button" name="btn" id="btn1">보기</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="radiotxt" value="bt2"/>
+                        </td>
+                        <td>Chloe(끌로에)</td>
+                        <td>12평</td>
+                        <td>
+                            <select name="number">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                            <p>/4</p>
+                        </td>
+                        <td>80,000</td>
+                        <td>100,000</td>
+                        <td>150,000</td>
+                        <td>온돌룸, 거실, 주방, 화장실</td>
+                        <td>
+                            <button type="button" id="btn2">보기</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="radiotxt" value="bt3"/>
+                        </td>
+                        <td>Camille(까미유)</td>
+                        <td>16평</td>
+                        <td>
+                            <select name="number">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                            <p>/6</p>
+                        </td>
+                        <td>100,000</td>
+                        <td>120,000</td>
+                        <td>200,000</td>
+                        <td>침대룸,거실,주방,화장실</td>
+                        <td>
+                            <button type="button" id="btn3">보기</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="radiotxt" value="bt4"/>
+                        </td>
+                        <td>Alice(알리스)</td>
+                        <td>16평</td>
+                        <td>
+                            <select name="number">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                            <p>/6</p>
+                        </td>
+                        <td>100,000</td>
+                        <td>120,000</td>
+                        <td>200,000</td>
+                        <td>온돌룸, 거실, 주방, 화장실</td>
+                        <td>
+                            <button type="button" id="btn4">보기</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="radiotxt" value="bt5"/>
+                        </td>
+                        <td>Ambre(앙브흐)</td>
+                        <td>30평</td>
+                        <td>
+                            <select name="number">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                            </select>
+                            <p>/15</p>
+                        </td>
+                        <td>200,000</td>
+                        <td>250,000</td>
+                        <td>350,000</td>
+                        <td>온돌룸2, 침대룸1, 거실, 주방, 화장실2</td>
+                        <td>
+                            <button type="button" id="btn5">보기</button>
+                        </td>
+                    </tr>
+                </table>            
+                <div id="resertxt">
+                    <p>※ 주중요금 : 일요일~금요일</p>
+                    <p>※ 주말요금 : 토요일 및 공휴일(추석, 설날 제외)</p>
+                    <p>※ 성수기 7월20~8월11일, 추석, 설날</p>
+                    <p>※ 입실시간 : 14:00 이후</p>
+                    <p>※ 퇴실시간 : 11:00 이전</p>
+                    <p>※ 기준 인원 초과 시(유아, 어린이 포함) 1인당 1만원 추가요금이 발생합니다.</p>
+                    <p>※ 바베큐 그릴, 숯 : 1만 5천원 (단체 3만원)</p>
+                    <p>※ 애완견 입실불가하며 현장에서 퇴실조시 됩니다. (환불불가)</p>
+                    <p>※ 보호자를 동반하지 않은 미성년자의 이용은 불가합니다. (환불불가)</p>
+                    <p>
+                    <br/>
+                    <p style="font-size: 0.7em;">공통시설 :TV, 화장대, 냉장고, 식기, 인덕션, 전자레인지, 드라이기</p>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <p>기본사항 :</p>
+                    <br/>
+                    <p>- 예약은 365일 언제든지 전화를 통해 가능합니다.</p>
+                    <p>- 문의전화 010-1234-5678로 전화주시면 친절히 상담 해드립니다.</p>
+                    <p>- 무통장입금계좌 국민 404001-04-134535 (한지호)</p>
+                    <p>- 예약 신청 후 12시간 내로 전액을 입금하셔야 예약이 완료됩니다.(12시간 경과시 예약신청이 자동 취소 될 수 있습니다.)</p>
+                    <p>- 입금은 꼭 예약자명으로 해주시고 입금자명이 상이할 경우 전화를 주시거나 문자를 남겨주세요.</p>
+                    <p>- 단, 당일 예약과 하루 전 예약은 3시간 내에 결제를 완료해 주셔야 합니다.</p>
+                    <p>- 입실 시간은 이용당일 14:00 부터 가능합니다.</p>
+                    <p>- 퇴실 시간은 마지막 이용일 오전 11:00까지 입니다.</p>
+                    <p>- 오후 10시 이후의 입실은 사전에 반드시 연락을 주시기 바랍니다.</p>
+                </div>
+                <div id="reserbtn">
+                    <a href="#">예약하기</a>
+                </div>
+            </div>
+        </section>
+        
+        <div class="sliderbox">
+            <div class="slider1">
+                    <div class="slide ratiobox">
+                        <img src="images/lena1.jpg" alt="lena"/>
+                    </div>
+                    <div class="slide ratiobox">
+                        <img src="images/lena2.jpg" alt="lena"/>
+                    </div>
+                    <div class="slide ratiobox">
+                        <img src="images/lena3.jpg" alt="lena"/>
+                    </div>
+                    <div class="slide ratiobox">
+                        <img src="images/lena4.jpg" alt="lena"/>
+                    </div>  
+                    <div class="slide ratiobox">
+                        <img src="images/lena5.jpg" alt="lena"/>
+                    </div>   
+            </div>
+        </div>  
+        
+        <div class="sliderbox2">
+            <div class="slider1">
+                    <div class="slide ratiobox">
+                        <img src="images/Chloe1.jpg" alt="Chloe"/>
+                    </div>
+                    <div class="slide ratiobox">
+                        <img src="images/Chloe2.jpg" alt="Chloe"/>
+                    </div>
+                    <div class="slide ratiobox">
+                        <img src="images/Chloe3.jpg" alt="Chloe"/>
+                    </div>
+                    <div class="slide ratiobox">
+                        <img src="images/Chloe4.jpg" alt="Chloe"/>
+                    </div>  
+                    <div class="slide ratiobox">
+                        <img src="images/Chloe5.jpg" alt="Chloe"/>
+                    </div>   
+                    <div class="slide ratiobox">
+                        <img src="images/Chloe6.jpg" alt="Chloe"/>
+                    </div>   
+            </div>
+        </div>  
+        
+        <div class="sliderbox3">
+            <div class="slider1">
+                    <div class="slide ratiobox">
+                        <img src="images/Camille1.jpg" alt="Camille"/>
+                    </div>
+                    <div class="slide ratiobox">
+                        <img src="images/Camille2.jpg" alt="Camille"/>
+                    </div>
+                    <div class="slide ratiobox">
+                        <img src="images/Camille3.jpg" alt="Camille"/>
+                    </div>
+                    <div class="slide ratiobox">
+                        <img src="images/Camille4.jpg" alt="Camille"/>
+                    </div>  
+                    <div class="slide ratiobox">
+                        <img src="images/Camille5.jpg" alt="Camille"/>
+                    </div>    
+                    <div class="slide ratiobox">
+                        <img src="images/Camille6.jpg" alt="Camille"/>
+                    </div>    
+                    <div class="slide ratiobox">
+                        <img src="images/Camille7.jpg" alt="Camille"/>
+                    </div>   
+            </div>
+        </div>  
+        
+        <div class="sliderbox4">
+            <div class="slider1">
+                    <div class="slide ratiobox">
+                        <img src="images/Alice1.jpg" alt="Alice"/>
+                    </div>
+                    <div class="slide ratiobox">
+                        <img src="images/Alice2.jpg" alt="Alice"/>
+                    </div>
+                    <div class="slide ratiobox">
+                        <img src="images/Alice3.jpg" alt="Alice"/>
+                    </div>
+                    <div class="slide ratiobox">
+                        <img src="images/Alice4.jpg" alt="Alice"/>
+                    </div>  
+                    <div class="slide ratiobox">
+                        <img src="images/Alice5.jpg" alt="Alice"/>
+                    </div>  
+                    <div class="slide ratiobox">
+                        <img src="images/Alice6.jpg" alt="Alice"/>
+                    </div>  
+                    <div class="slide ratiobox">
+                        <img src="images/Alice7.jpg" alt="Alice"/>
+                    </div>  
+                    <div class="slide ratiobox">
+                        <img src="images/Alice8.jpg" alt="Alice"/>
+                    </div>   
+            </div>
+        </div>  
+        
+        <div class="sliderbox5">
+            <div class="slider1">
+                    <div class="slide ratiobox">
+                        <img src="images/Ambre1.jpg" alt="Ambre"/>
+                    </div>
+                    <div class="slide ratiobox">
+                        <img src="images/Ambre2.jpg" alt="Ambre"/>
+                    </div>
+                    <div class="slide ratiobox">
+                        <img src="images/Ambre3.jpg" alt="Ambre"/>
+                    </div>
+                    <div class="slide ratiobox">
+                        <img src="images/Ambre4.jpg" alt="Ambre"/>
+                    </div>  
+                    <div class="slide ratiobox">
+                        <img src="images/Ambre5.jpg" alt="Ambre"/>
+                    </div>    
+                    <div class="slide ratiobox">
+                        <img src="images/Ambre6.jpg" alt="Ambre"/>
+                    </div>    
+                    <div class="slide ratiobox">
+                        <img src="images/Ambre7.jpg" alt="Ambre"/>
+                    </div>    
+                    <div class="slide ratiobox">
+                        <img src="images/Ambre8.jpg" alt="Ambre"/>
+                    </div>    
+                    <div class="slide ratiobox">
+                        <img src="images/Ambre9.jpg" alt="Ambre"/>
+                    </div>   
+            </div>
+        </div>    
+        <div id="back"></div>
+        <script>
+            $(".slider1").slick({
+                prevArrow: "<button type='button' class='slick-prev'></button>",
+                nextArrow: "<button type='button' class='slick-next'></button>",
+                dots: true,
+                autoplay: true
+            });
+            $(".slick-dots").append("<li><span id='pause'></span></li>");
+            $(".slick-dots").append("<li><span id='play'></span></li>");
+        </script>
+        <footer class="cen1">
+            <div id="footerbox" class="cen2">
+                <img src="images/JG.png" alt="자구가숑LOGO"/>
+                <br/>
+                <br/>
+                <div id="footertxt">
+                    <p>회사명:Jacques Gaschon (자크가숑)</p>
+                    <br/>
+                    <p>소재지:대전광역시 중구 중앙로121번길 20방산빌딩</p>
+                    <br/>
+                    <p>대표자:한지호 | 사업자등록번호 : 123-12-12345</p>
+                    <br/>
+                    <p>전화번호:042-123-1234  이메일:jacques@gaschon.com</p>
+                </div>
+                <div id="iconbox">
+                    <img src="images/face.png" alt="fackboox icon">
+                    <img src="images/insta.png" alt="insragram icon">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </div>
+                <p id="centxt">
+                    이용약관 | 개인정보보호정책 | 법률관련문서
+                </p>
+            </div>
+        </footer>
+        <script src="script/radio_btn.js"></script>
+        <script src="script/script.js"></script>
+        <script src="script/ratio_adj.js"></script>
+    </body>
+</html>

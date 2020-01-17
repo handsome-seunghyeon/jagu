@@ -1,0 +1,155 @@
+
+
+.slide img{
+    width:100%;
+    height: 600px;
+}
+
+.slick-arrow {
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top:100px;
+    transform: translateY(-50%);
+    z-index: 10;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 140px;
+}
+
+.slick-prev {
+    left: 10px;
+    background-image: url(../images/prev-arrow.png);
+}
+
+.slick-next {
+    right: 10px;
+    background-image: url(../images/next-arrow.png);
+}
+
+.slider {
+    position: relative;
+}
+
+.slide>img {
+    width: 100%;
+}
+
+.slider .cen2 {
+    position: absolute;
+    z-index: 20;
+    top: 5em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slick-dots {
+    position: absolute;
+    text-align: center;
+    bottom: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+} 
+
+.slick-dots>li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: -160px;
+}
+
+.slick-dots button {
+    color: transparent;
+    width: 13px;
+    height: 13px;
+    background-color:#262323;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 0px 7px;
+}
+
+.slick-active button {
+    background-color:#d3b666;
+}
+
+.slider1{
+    width: 600px;
+    height: 400px;
+}
+
+
+.slider1 .slide{
+   height: 400px!important;
+}
+
+.sliderbox{
+    z-index: 30;
+    display: none;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.sliderbox2{
+    z-index: 30;
+    display: none;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.sliderbox3{
+    z-index: 30;
+    display: none;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.sliderbox4{
+    z-index: 30;
+    display: none;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+.sliderbox5{
+    z-index: 30;
+    display: none;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#back{
+    z-index: 10;
+}
+
+@media all and (max-width:780px){
+    .slider1{
+        width:300px;
+        height:300px;
+    }
+    .slider1 .slide img{
+        height: 300px!important;
+    }
+    
+    .slick-dots{
+       bottom: 50px; 
+    }
+    
+    
+}
